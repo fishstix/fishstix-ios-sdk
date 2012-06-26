@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B213C8159A27BD00456CE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213C7159A27BD00456CE8 /* UIKit.framework */; };
+		72B213CA159A27BD00456CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213C9159A27BD00456CE8 /* Foundation.framework */; };
+		72B213CC159A27BD00456CE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213CB159A27BD00456CE8 /* CoreGraphics.framework */; };
+		72B213CE159A27BD00456CE8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213CD159A27BD00456CE8 /* CoreData.framework */; };
+		72B213D4159A27BD00456CE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72B213D2159A27BD00456CE8 /* InfoPlist.strings */; };
+		72B213D6159A27BD00456CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B213D5159A27BD00456CE8 /* main.m */; };
+		72B213DA159A27BD00456CE8 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B213D9159A27BD00456CE8 /* FSAppDelegate.m */; };
+		72B213DD159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72B213DB159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodeld */; };
+		72B213E5159A27BD00456CE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213E4159A27BD00456CE8 /* SenTestingKit.framework */; };
+		72B213E6159A27BD00456CE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213C7159A27BD00456CE8 /* UIKit.framework */; };
+		72B213E7159A27BD00456CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213C9159A27BD00456CE8 /* Foundation.framework */; };
+		72B213E8159A27BD00456CE8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B213CD159A27BD00456CE8 /* CoreData.framework */; };
+		72B213F0159A27BD00456CE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72B213EE159A27BD00456CE8 /* InfoPlist.strings */; };
+		72B213F3159A27BD00456CE8 /* fishstix_ios_sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B213F2159A27BD00456CE8 /* fishstix_ios_sdkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72B213E9159A27BD00456CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B213BA159A27BC00456CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B213C2159A27BD00456CE8;
+			remoteInfo = "fishstix-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72B213C3159A27BD00456CE8 /* fishstix-ios-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fishstix-ios-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B213C7159A27BD00456CE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72B213C9159A27BD00456CE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72B213CB159A27BD00456CE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72B213CD159A27BD00456CE8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72B213D1159A27BD00456CE8 /* fishstix-ios-sdk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fishstix-ios-sdk-Info.plist"; sourceTree = "<group>"; };
+		72B213D3159A27BD00456CE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72B213D5159A27BD00456CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72B213D7159A27BD00456CE8 /* fishstix-ios-sdk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fishstix-ios-sdk-Prefix.pch"; sourceTree = "<group>"; };
+		72B213D8159A27BD00456CE8 /* FSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		72B213D9159A27BD00456CE8 /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		72B213DC159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fishstix_ios_sdk.xcdatamodel; sourceTree = "<group>"; };
+		72B213E3159A27BD00456CE8 /* fishstix-ios-sdkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fishstix-ios-sdkTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B213E4159A27BD00456CE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		72B213ED159A27BD00456CE8 /* fishstix-ios-sdkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fishstix-ios-sdkTests-Info.plist"; sourceTree = "<group>"; };
+		72B213EF159A27BD00456CE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72B213F1159A27BD00456CE8 /* fishstix_ios_sdkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishstix_ios_sdkTests.h; sourceTree = "<group>"; };
+		72B213F2159A27BD00456CE8 /* fishstix_ios_sdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fishstix_ios_sdkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B213C0159A27BD00456CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B213C8159A27BD00456CE8 /* UIKit.framework in Frameworks */,
+				72B213CA159A27BD00456CE8 /* Foundation.framework in Frameworks */,
+				72B213CC159A27BD00456CE8 /* CoreGraphics.framework in Frameworks */,
+				72B213CE159A27BD00456CE8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B213DF159A27BD00456CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B213E5159A27BD00456CE8 /* SenTestingKit.framework in Frameworks */,
+				72B213E6159A27BD00456CE8 /* UIKit.framework in Frameworks */,
+				72B213E7159A27BD00456CE8 /* Foundation.framework in Frameworks */,
+				72B213E8159A27BD00456CE8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72B213B8159A27BC00456CE8 = {
+			isa = PBXGroup;
+			children = (
+				72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */,
+				72B213EB159A27BD00456CE8 /* fishstix-ios-sdkTests */,
+				72B213C6159A27BD00456CE8 /* Frameworks */,
+				72B213C4159A27BD00456CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72B213C4159A27BD00456CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B213C3159A27BD00456CE8 /* fishstix-ios-sdk.app */,
+				72B213E3159A27BD00456CE8 /* fishstix-ios-sdkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B213C6159A27BD00456CE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B213C7159A27BD00456CE8 /* UIKit.framework */,
+				72B213C9159A27BD00456CE8 /* Foundation.framework */,
+				72B213CB159A27BD00456CE8 /* CoreGraphics.framework */,
+				72B213CD159A27BD00456CE8 /* CoreData.framework */,
+				72B213E4159A27BD00456CE8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				72B213D8159A27BD00456CE8 /* FSAppDelegate.h */,
+				72B213D9159A27BD00456CE8 /* FSAppDelegate.m */,
+				72B213DB159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodeld */,
+				72B213D0159A27BD00456CE8 /* Supporting Files */,
+			);
+			path = "fishstix-ios-sdk";
+			sourceTree = "<group>";
+		};
+		72B213D0159A27BD00456CE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B213D1159A27BD00456CE8 /* fishstix-ios-sdk-Info.plist */,
+				72B213D2159A27BD00456CE8 /* InfoPlist.strings */,
+				72B213D5159A27BD00456CE8 /* main.m */,
+				72B213D7159A27BD00456CE8 /* fishstix-ios-sdk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72B213EB159A27BD00456CE8 /* fishstix-ios-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				72B213F1159A27BD00456CE8 /* fishstix_ios_sdkTests.h */,
+				72B213F2159A27BD00456CE8 /* fishstix_ios_sdkTests.m */,
+				72B213EC159A27BD00456CE8 /* Supporting Files */,
+			);
+			path = "fishstix-ios-sdkTests";
+			sourceTree = "<group>";
+		};
+		72B213EC159A27BD00456CE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B213ED159A27BD00456CE8 /* fishstix-ios-sdkTests-Info.plist */,
+				72B213EE159A27BD00456CE8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B213C2159A27BD00456CE8 /* fishstix-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B213F6159A27BD00456CE8 /* Build configuration list for PBXNativeTarget "fishstix-ios-sdk" */;
+			buildPhases = (
+				72B213BF159A27BD00456CE8 /* Sources */,
+				72B213C0159A27BD00456CE8 /* Frameworks */,
+				72B213C1159A27BD00456CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fishstix-ios-sdk";
+			productName = "fishstix-ios-sdk";
+			productReference = 72B213C3159A27BD00456CE8 /* fishstix-ios-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72B213E2159A27BD00456CE8 /* fishstix-ios-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B213F9159A27BD00456CE8 /* Build configuration list for PBXNativeTarget "fishstix-ios-sdkTests" */;
+			buildPhases = (
+				72B213DE159A27BD00456CE8 /* Sources */,
+				72B213DF159A27BD00456CE8 /* Frameworks */,
+				72B213E0159A27BD00456CE8 /* Resources */,
+				72B213E1159A27BD00456CE8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72B213EA159A27BD00456CE8 /* PBXTargetDependency */,
+			);
+			name = "fishstix-ios-sdkTests";
+			productName = "fishstix-ios-sdkTests";
+			productReference = 72B213E3159A27BD00456CE8 /* fishstix-ios-sdkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B213BA159A27BC00456CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 72B213BD159A27BC00456CE8 /* Build configuration list for PBXProject "fishstix-ios-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72B213B8159A27BC00456CE8;
+			productRefGroup = 72B213C4159A27BD00456CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B213C2159A27BD00456CE8 /* fishstix-ios-sdk */,
+				72B213E2159A27BD00456CE8 /* fishstix-ios-sdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B213C1159A27BD00456CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B213D4159A27BD00456CE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B213E0159A27BD00456CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B213F0159A27BD00456CE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72B213E1159A27BD00456CE8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B213BF159A27BD00456CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B213D6159A27BD00456CE8 /* main.m in Sources */,
+				72B213DA159A27BD00456CE8 /* FSAppDelegate.m in Sources */,
+				72B213DD159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B213DE159A27BD00456CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B213F3159A27BD00456CE8 /* fishstix_ios_sdkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72B213EA159A27BD00456CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72B213C2159A27BD00456CE8 /* fishstix-ios-sdk */;
+			targetProxy = 72B213E9159A27BD00456CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72B213D2159A27BD00456CE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B213D3159A27BD00456CE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72B213EE159A27BD00456CE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B213EF159A27BD00456CE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72B213F4159A27BD00456CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72B213F5159A27BD00456CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72B213F7159A27BD00456CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fishstix-ios-sdk/fishstix-ios-sdk-Prefix.pch";
+				INFOPLIST_FILE = "fishstix-ios-sdk/fishstix-ios-sdk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72B213F8159A27BD00456CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fishstix-ios-sdk/fishstix-ios-sdk-Prefix.pch";
+				INFOPLIST_FILE = "fishstix-ios-sdk/fishstix-ios-sdk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72B213FA159A27BD00456CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fishstix-ios-sdk.app/fishstix-ios-sdk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fishstix-ios-sdk/fishstix-ios-sdk-Prefix.pch";
+				INFOPLIST_FILE = "fishstix-ios-sdkTests/fishstix-ios-sdkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		72B213FB159A27BD00456CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fishstix-ios-sdk.app/fishstix-ios-sdk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fishstix-ios-sdk/fishstix-ios-sdk-Prefix.pch";
+				INFOPLIST_FILE = "fishstix-ios-sdkTests/fishstix-ios-sdkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B213BD159A27BC00456CE8 /* Build configuration list for PBXProject "fishstix-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B213F4159A27BD00456CE8 /* Debug */,
+				72B213F5159A27BD00456CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B213F6159A27BD00456CE8 /* Build configuration list for PBXNativeTarget "fishstix-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B213F7159A27BD00456CE8 /* Debug */,
+				72B213F8159A27BD00456CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72B213F9159A27BD00456CE8 /* Build configuration list for PBXNativeTarget "fishstix-ios-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B213FA159A27BD00456CE8 /* Debug */,
+				72B213FB159A27BD00456CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72B213DB159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72B213DC159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodel */,
+			);
+			currentVersion = 72B213DC159A27BD00456CE8 /* fishstix_ios_sdk.xcdatamodel */;
+			path = fishstix_ios_sdk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72B213BA159A27BC00456CE8 /* Project object */;
+}
