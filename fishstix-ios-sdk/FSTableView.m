@@ -116,11 +116,11 @@
 //@synthesize delegate = _superViewDelegate;
 @synthesize delegate = _delegate;
 
-//- (void) setDelegate:(id<FSTableViewDelegate>)delegate
-//{
-////    _superViewDelegate = delegate;
-////    [super setDelegate:delegate];
-//}
+- (void) setDelegate:(id<FSTableViewDelegate>)delegate
+{
+//    _superViewDelegate = delegate;
+    [super setDelegate:delegate];
+}
 
 
 #define kHeaderFishViewTag 45631
@@ -143,7 +143,7 @@
         FSTableViewHiddenDelegate *hiddenDelegate = [[FSTableViewHiddenDelegate alloc] init];
 //        [self setHiddenDelegate:hiddenDelegate];
         [self setDelegate:hiddenDelegate];
-        [super setDelegate:(id<UITableViewDelegate>) self];
+//        [super setDelegate:(id<UITableViewDelegate>) self];
     }
     
     return self;
