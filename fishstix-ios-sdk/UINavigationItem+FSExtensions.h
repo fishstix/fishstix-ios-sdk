@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UINavigationItem (FSExtensions)
-- (void) setHidesMenuButton:(BOOL)hidesMenuButton;
+//- (void) setHidesMenuButton:(BOOL)hidesMenuButton;
 @end

@@ -27,8 +27,6 @@
 		726141E515F4783D00C586C9 /* UIAlertView+BlockExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141D515F4783D00C586C9 /* UIAlertView+BlockExtensions.m */; };
 		726141E615F4783D00C586C9 /* UIColor+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141D615F4783D00C586C9 /* UIColor+FSExtensions.h */; };
 		726141E715F4783D00C586C9 /* UIColor+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141D715F4783D00C586C9 /* UIColor+FSExtensions.m */; };
-		726141E815F4783D00C586C9 /* UIImage+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141D815F4783D00C586C9 /* UIImage+FSExtensions.h */; };
-		726141E915F4783D00C586C9 /* UIImage+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141D915F4783D00C586C9 /* UIImage+FSExtensions.m */; };
 		726141EA15F4783D00C586C9 /* UINavigationItem+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141DA15F4783D00C586C9 /* UINavigationItem+FSExtensions.h */; };
 		726141EB15F4783D00C586C9 /* UINavigationItem+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141DB15F4783D00C586C9 /* UINavigationItem+FSExtensions.m */; };
 		726141EC15F4783D00C586C9 /* UIWindow+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141DC15F4783D00C586C9 /* UIWindow+FSExtensions.h */; };
@@ -36,6 +34,13 @@
 		726141EE15F4783D00C586C9 /* NSDate+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141DE15F4783D00C586C9 /* NSDate+FSExtensions.h */; };
 		726141EF15F4783D00C586C9 /* NSDate+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141DF15F4783D00C586C9 /* NSDate+FSExtensions.m */; };
 		726141F015F4783D00C586C9 /* NSObject+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141E015F4783D00C586C9 /* NSObject+FSExtensions.h */; };
+		726141F815F482E500C586C9 /* FSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141F215F482E500C586C9 /* FSHTTPRequest.h */; };
+		726141F915F482E500C586C9 /* FSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141F315F482E500C586C9 /* FSHTTPRequest.m */; };
+		726141FA15F482E500C586C9 /* HTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141F415F482E500C586C9 /* HTTPRequest.h */; };
+		726141FB15F482E500C586C9 /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141F515F482E500C586C9 /* HTTPRequest.m */; };
+		726141FC15F482E500C586C9 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141F615F482E500C586C9 /* Reachability.h */; };
+		726141FD15F482E500C586C9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141F715F482E500C586C9 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7261420015F4837200C586C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726141FF15F4837100C586C9 /* SystemConfiguration.framework */; };
 		727B524B159E16C800E86A0A /* AppView.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5247159E16C800E86A0A /* AppView.h */; };
 		727B524C159E16C800E86A0A /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B5248159E16C800E86A0A /* AppView.m */; };
 		727B524D159E16C800E86A0A /* AppViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5249159E16C800E86A0A /* AppViewController.h */; };
@@ -73,8 +78,6 @@
 		726141D515F4783D00C586C9 /* UIAlertView+BlockExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlockExtensions.m"; sourceTree = "<group>"; };
 		726141D615F4783D00C586C9 /* UIColor+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSExtensions.h"; sourceTree = "<group>"; };
 		726141D715F4783D00C586C9 /* UIColor+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSExtensions.m"; sourceTree = "<group>"; };
-		726141D815F4783D00C586C9 /* UIImage+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FSExtensions.h"; sourceTree = "<group>"; };
-		726141D915F4783D00C586C9 /* UIImage+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FSExtensions.m"; sourceTree = "<group>"; };
 		726141DA15F4783D00C586C9 /* UINavigationItem+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+FSExtensions.h"; sourceTree = "<group>"; };
 		726141DB15F4783D00C586C9 /* UINavigationItem+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+FSExtensions.m"; sourceTree = "<group>"; };
 		726141DC15F4783D00C586C9 /* UIWindow+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FSExtensions.h"; sourceTree = "<group>"; };
@@ -82,6 +85,13 @@
 		726141DE15F4783D00C586C9 /* NSDate+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FSExtensions.h"; sourceTree = "<group>"; };
 		726141DF15F4783D00C586C9 /* NSDate+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FSExtensions.m"; sourceTree = "<group>"; };
 		726141E015F4783D00C586C9 /* NSObject+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FSExtensions.h"; sourceTree = "<group>"; };
+		726141F215F482E500C586C9 /* FSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHTTPRequest.h; sourceTree = "<group>"; };
+		726141F315F482E500C586C9 /* FSHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHTTPRequest.m; sourceTree = "<group>"; };
+		726141F415F482E500C586C9 /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		726141F515F482E500C586C9 /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+		726141F615F482E500C586C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		726141F715F482E500C586C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		726141FF15F4837100C586C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		727B5247159E16C800E86A0A /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppView.h; path = "fishstix-ios-sdk/AppView.h"; sourceTree = SOURCE_ROOT; };
 		727B5248159E16C800E86A0A /* AppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppView.m; path = "fishstix-ios-sdk/AppView.m"; sourceTree = SOURCE_ROOT; };
 		727B5249159E16C800E86A0A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppViewController.h; path = "fishstix-ios-sdk/AppViewController.h"; sourceTree = SOURCE_ROOT; };
@@ -114,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7261420015F4837200C586C9 /* SystemConfiguration.framework in Frameworks */,
 				7223FC10159C333100A2F7E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,8 +192,6 @@
 				726141D515F4783D00C586C9 /* UIAlertView+BlockExtensions.m */,
 				726141D615F4783D00C586C9 /* UIColor+FSExtensions.h */,
 				726141D715F4783D00C586C9 /* UIColor+FSExtensions.m */,
-				726141D815F4783D00C586C9 /* UIImage+FSExtensions.h */,
-				726141D915F4783D00C586C9 /* UIImage+FSExtensions.m */,
 				726141DA15F4783D00C586C9 /* UINavigationItem+FSExtensions.h */,
 				726141DB15F4783D00C586C9 /* UINavigationItem+FSExtensions.m */,
 				726141DC15F4783D00C586C9 /* UIWindow+FSExtensions.h */,
@@ -193,9 +202,23 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		726141F115F482D500C586C9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				726141F215F482E500C586C9 /* FSHTTPRequest.h */,
+				726141F315F482E500C586C9 /* FSHTTPRequest.m */,
+				726141F415F482E500C586C9 /* HTTPRequest.h */,
+				726141F515F482E500C586C9 /* HTTPRequest.m */,
+				726141F615F482E500C586C9 /* Reachability.h */,
+				726141F715F482E500C586C9 /* Reachability.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		72B213B8159A27BC00456CE8 = {
 			isa = PBXGroup;
 			children = (
+				726141FF15F4837100C586C9 /* SystemConfiguration.framework */,
 				72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */,
 				7223FC23159C333100A2F7E8 /* fishstix-ios-sdkTests */,
 				72B213C6159A27BD00456CE8 /* Frameworks */,
@@ -227,6 +250,7 @@
 		72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				726141F115F482D500C586C9 /* Network */,
 				726141D015F477D100C586C9 /* Extensions */,
 				72B213D8159A27BD00456CE8 /* FSAppDelegate.h */,
 				72B213D9159A27BD00456CE8 /* FSAppDelegate.m */,
@@ -328,11 +352,13 @@
 				726141E215F4783D00C586C9 /* NSString+FSExtensions.h in Headers */,
 				726141E415F4783D00C586C9 /* UIAlertView+BlockExtensions.h in Headers */,
 				726141E615F4783D00C586C9 /* UIColor+FSExtensions.h in Headers */,
-				726141E815F4783D00C586C9 /* UIImage+FSExtensions.h in Headers */,
 				726141EA15F4783D00C586C9 /* UINavigationItem+FSExtensions.h in Headers */,
 				726141EC15F4783D00C586C9 /* UIWindow+FSExtensions.h in Headers */,
 				726141EE15F4783D00C586C9 /* NSDate+FSExtensions.h in Headers */,
 				726141F015F4783D00C586C9 /* NSObject+FSExtensions.h in Headers */,
+				726141F815F482E500C586C9 /* FSHTTPRequest.h in Headers */,
+				726141FA15F482E500C586C9 /* HTTPRequest.h in Headers */,
+				726141FC15F482E500C586C9 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,10 +469,12 @@
 				726141E315F4783D00C586C9 /* NSString+FSExtensions.m in Sources */,
 				726141E515F4783D00C586C9 /* UIAlertView+BlockExtensions.m in Sources */,
 				726141E715F4783D00C586C9 /* UIColor+FSExtensions.m in Sources */,
-				726141E915F4783D00C586C9 /* UIImage+FSExtensions.m in Sources */,
 				726141EB15F4783D00C586C9 /* UINavigationItem+FSExtensions.m in Sources */,
 				726141ED15F4783D00C586C9 /* UIWindow+FSExtensions.m in Sources */,
 				726141EF15F4783D00C586C9 /* NSDate+FSExtensions.m in Sources */,
+				726141F915F482E500C586C9 /* FSHTTPRequest.m in Sources */,
+				726141FB15F482E500C586C9 /* HTTPRequest.m in Sources */,
+				726141FD15F482E500C586C9 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

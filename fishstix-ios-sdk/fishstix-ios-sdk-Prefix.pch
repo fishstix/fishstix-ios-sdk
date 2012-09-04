@@ -4,6 +4,8 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
+
+    #import "UIWindow+FSExtensions.h"
 #endif
 
 // DLog is almost a drop-in replacement for NSLog
