@@ -45,6 +45,8 @@
 		727B524C159E16C800E86A0A /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B5248159E16C800E86A0A /* AppView.m */; };
 		727B524D159E16C800E86A0A /* AppViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5249159E16C800E86A0A /* AppViewController.h */; };
 		727B524E159E16C800E86A0A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B524A159E16C800E86A0A /* AppViewController.m */; };
+		72B02237165242B100CF7D82 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B213D9159A27BD00456CE8 /* FSAppDelegate.m */; };
+		72B02238165243AC00CF7D82 /* FSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B213D8159A27BD00456CE8 /* FSAppDelegate.h */; };
 		72C73BE515AD4ECE00FCA626 /* FSTableHeaderSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B214AB159AEE2900456CE8 /* FSTableHeaderSuperView.m */; };
 /* End PBXBuildFile section */
 
@@ -218,7 +220,6 @@
 		72B213B8159A27BC00456CE8 = {
 			isa = PBXGroup;
 			children = (
-				726141FF15F4837100C586C9 /* SystemConfiguration.framework */,
 				72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */,
 				7223FC23159C333100A2F7E8 /* fishstix-ios-sdkTests */,
 				72B213C6159A27BD00456CE8 /* Frameworks */,
@@ -238,6 +239,7 @@
 		72B213C6159A27BD00456CE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				726141FF15F4837100C586C9 /* SystemConfiguration.framework */,
 				72B213C7159A27BD00456CE8 /* UIKit.framework */,
 				72B213C9159A27BD00456CE8 /* Foundation.framework */,
 				72B213CB159A27BD00456CE8 /* CoreGraphics.framework */,
@@ -344,6 +346,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B02238165243AC00CF7D82 /* FSAppDelegate.h in Headers */,
 				7223FC35159C3B6100A2F7E8 /* FSPaginatedScrollView.h in Headers */,
 				727B524B159E16C800E86A0A /* AppView.h in Headers */,
 				727B524D159E16C800E86A0A /* AppViewController.h in Headers */,
@@ -475,6 +478,7 @@
 				726141F915F482E500C586C9 /* FSHTTPRequest.m in Sources */,
 				726141FB15F482E500C586C9 /* HTTPRequest.m in Sources */,
 				726141FD15F482E500C586C9 /* Reachability.m in Sources */,
+				72B02237165242B100CF7D82 /* FSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
