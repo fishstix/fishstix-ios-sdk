@@ -16,6 +16,10 @@
 		7223FC2B159C333100A2F7E8 /* fishstix_ios_sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223FC2A159C333100A2F7E8 /* fishstix_ios_sdkTests.m */; };
 		7223FC34159C3B6100A2F7E8 /* FSPaginatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223FC32159C3B6000A2F7E8 /* FSPaginatedScrollView.m */; };
 		7223FC35159C3B6100A2F7E8 /* FSPaginatedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7223FC33159C3B6000A2F7E8 /* FSPaginatedScrollView.h */; };
+		725A4FA7165395DD0011AE53 /* FSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 725A4FA6165395DD0011AE53 /* FSViewController.h */; };
+		725A4FA9165395EB0011AE53 /* FSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725A4FA8165395EB0011AE53 /* FSViewController.m */; };
+		725A4FAD165396600011AE53 /* FSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 725A4FAB165396600011AE53 /* FSUtil.h */; };
+		725A4FAE165396600011AE53 /* FSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 725A4FAC165396600011AE53 /* FSUtil.m */; };
 		726141A115F4683D00C586C9 /* MKDSlideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7261419F15F4683D00C586C9 /* MKDSlideViewController.h */; };
 		726141A215F4683D00C586C9 /* MKDSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141A015F4683D00C586C9 /* MKDSlideViewController.m */; };
 		726141AA15F4692900C586C9 /* FSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141A815F4692900C586C9 /* FSViewController.h */; };
@@ -41,10 +45,8 @@
 		726141FC15F482E500C586C9 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 726141F615F482E500C586C9 /* Reachability.h */; };
 		726141FD15F482E500C586C9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 726141F715F482E500C586C9 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7261420015F4837200C586C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726141FF15F4837100C586C9 /* SystemConfiguration.framework */; };
-		727B524B159E16C800E86A0A /* AppView.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5247159E16C800E86A0A /* AppView.h */; };
-		727B524C159E16C800E86A0A /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B5248159E16C800E86A0A /* AppView.m */; };
-		727B524D159E16C800E86A0A /* AppViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5249159E16C800E86A0A /* AppViewController.h */; };
-		727B524E159E16C800E86A0A /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B524A159E16C800E86A0A /* AppViewController.m */; };
+		727B524B159E16C800E86A0A /* FSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5247159E16C800E86A0A /* FSView.h */; };
+		727B524C159E16C800E86A0A /* FSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B5248159E16C800E86A0A /* FSView.m */; };
 		72B02237165242B100CF7D82 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B213D9159A27BD00456CE8 /* FSAppDelegate.m */; };
 		72B02238165243AC00CF7D82 /* FSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B213D8159A27BD00456CE8 /* FSAppDelegate.h */; };
 		72C73BE515AD4ECE00FCA626 /* FSTableHeaderSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B214AB159AEE2900456CE8 /* FSTableHeaderSuperView.m */; };
@@ -69,6 +71,10 @@
 		7223FC2A159C333100A2F7E8 /* fishstix_ios_sdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fishstix_ios_sdkTests.m; sourceTree = "<group>"; };
 		7223FC32159C3B6000A2F7E8 /* FSPaginatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSPaginatedScrollView.m; path = "fishstix-ios-sdk/FSPaginatedScrollView.m"; sourceTree = SOURCE_ROOT; };
 		7223FC33159C3B6000A2F7E8 /* FSPaginatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSPaginatedScrollView.h; path = "fishstix-ios-sdk/FSPaginatedScrollView.h"; sourceTree = SOURCE_ROOT; };
+		725A4FA6165395DD0011AE53 /* FSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSViewController.h; path = "fishstix-ios-sdk/FSViewController.h"; sourceTree = SOURCE_ROOT; };
+		725A4FA8165395EB0011AE53 /* FSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSViewController.m; path = "fishstix-ios-sdk/FSViewController.m"; sourceTree = SOURCE_ROOT; };
+		725A4FAB165396600011AE53 /* FSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSUtil.h; sourceTree = "<group>"; };
+		725A4FAC165396600011AE53 /* FSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSUtil.m; sourceTree = "<group>"; };
 		7261419F15F4683D00C586C9 /* MKDSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDSlideViewController.h; sourceTree = "<group>"; };
 		726141A015F4683D00C586C9 /* MKDSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDSlideViewController.m; sourceTree = "<group>"; };
 		726141A815F4692900C586C9 /* FSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSViewController.h; sourceTree = "<group>"; };
@@ -94,10 +100,8 @@
 		726141F615F482E500C586C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		726141F715F482E500C586C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		726141FF15F4837100C586C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		727B5247159E16C800E86A0A /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppView.h; path = "fishstix-ios-sdk/AppView.h"; sourceTree = SOURCE_ROOT; };
-		727B5248159E16C800E86A0A /* AppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppView.m; path = "fishstix-ios-sdk/AppView.m"; sourceTree = SOURCE_ROOT; };
-		727B5249159E16C800E86A0A /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppViewController.h; path = "fishstix-ios-sdk/AppViewController.h"; sourceTree = SOURCE_ROOT; };
-		727B524A159E16C800E86A0A /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppViewController.m; path = "fishstix-ios-sdk/AppViewController.m"; sourceTree = SOURCE_ROOT; };
+		727B5247159E16C800E86A0A /* FSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSView.h; path = "fishstix-ios-sdk/FSView.h"; sourceTree = SOURCE_ROOT; };
+		727B5248159E16C800E86A0A /* FSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSView.m; path = "fishstix-ios-sdk/FSView.m"; sourceTree = SOURCE_ROOT; };
 		72B213C7159A27BD00456CE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72B213C9159A27BD00456CE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72B213CB159A27BD00456CE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,6 +166,15 @@
 				7223FC26159C333100A2F7E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		725A4FAA1653964E0011AE53 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				725A4FAB165396600011AE53 /* FSUtil.h */,
+				725A4FAC165396600011AE53 /* FSUtil.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		7261419C15F467F500C586C9 /* Controllers */ = {
@@ -252,6 +265,7 @@
 		72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				725A4FAA1653964E0011AE53 /* Util */,
 				726141F115F482D500C586C9 /* Network */,
 				726141D015F477D100C586C9 /* Extensions */,
 				72B213D8159A27BD00456CE8 /* FSAppDelegate.h */,
@@ -290,10 +304,10 @@
 		72B2148F159AED8500456CE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				727B5247159E16C800E86A0A /* AppView.h */,
-				727B5248159E16C800E86A0A /* AppView.m */,
-				727B5249159E16C800E86A0A /* AppViewController.h */,
-				727B524A159E16C800E86A0A /* AppViewController.m */,
+				727B5247159E16C800E86A0A /* FSView.h */,
+				727B5248159E16C800E86A0A /* FSView.m */,
+				725A4FA6165395DD0011AE53 /* FSViewController.h */,
+				725A4FA8165395EB0011AE53 /* FSViewController.m */,
 				72B21498159AED8500456CE8 /* Table */,
 				7223FC33159C3B6000A2F7E8 /* FSPaginatedScrollView.h */,
 				7223FC32159C3B6000A2F7E8 /* FSPaginatedScrollView.m */,
@@ -348,8 +362,7 @@
 			files = (
 				72B02238165243AC00CF7D82 /* FSAppDelegate.h in Headers */,
 				7223FC35159C3B6100A2F7E8 /* FSPaginatedScrollView.h in Headers */,
-				727B524B159E16C800E86A0A /* AppView.h in Headers */,
-				727B524D159E16C800E86A0A /* AppViewController.h in Headers */,
+				727B524B159E16C800E86A0A /* FSView.h in Headers */,
 				726141A115F4683D00C586C9 /* MKDSlideViewController.h in Headers */,
 				726141AA15F4692900C586C9 /* FSViewController.h in Headers */,
 				726141E215F4783D00C586C9 /* NSString+FSExtensions.h in Headers */,
@@ -362,6 +375,8 @@
 				726141F815F482E500C586C9 /* FSHTTPRequest.h in Headers */,
 				726141FA15F482E500C586C9 /* HTTPRequest.h in Headers */,
 				726141FC15F482E500C586C9 /* Reachability.h in Headers */,
+				725A4FA7165395DD0011AE53 /* FSViewController.h in Headers */,
+				725A4FAD165396600011AE53 /* FSUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,8 +478,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7223FC34159C3B6100A2F7E8 /* FSPaginatedScrollView.m in Sources */,
-				727B524C159E16C800E86A0A /* AppView.m in Sources */,
-				727B524E159E16C800E86A0A /* AppViewController.m in Sources */,
+				727B524C159E16C800E86A0A /* FSView.m in Sources */,
 				72C73BE515AD4ECE00FCA626 /* FSTableHeaderSuperView.m in Sources */,
 				726141A215F4683D00C586C9 /* MKDSlideViewController.m in Sources */,
 				726141AB15F4692900C586C9 /* FSViewController.m in Sources */,
@@ -479,6 +493,8 @@
 				726141FB15F482E500C586C9 /* HTTPRequest.m in Sources */,
 				726141FD15F482E500C586C9 /* Reachability.m in Sources */,
 				72B02237165242B100CF7D82 /* FSAppDelegate.m in Sources */,
+				725A4FA9165395EB0011AE53 /* FSViewController.m in Sources */,
+				725A4FAE165396600011AE53 /* FSUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
