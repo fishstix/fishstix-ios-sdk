@@ -14,19 +14,21 @@
 
 @implementation FSViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id) init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    NSString *filename = NSStringFromClass([self class]);
+    
+    if ([[NSBundle mainBundle] pathForResource:filename ofType:@"nib"] != nil)  {
+        self = [self initWithNibName:filename bundle:nil];
+    } else {
+        self = [super init];
     }
+    
+    if (self) {
+        //
+    }
+    
     return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 @end

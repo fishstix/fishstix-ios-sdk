@@ -102,9 +102,9 @@
     }
 }
 
-- (AppView*) viewForPage:(int)page
+- (FSView*) viewForPage:(int)page
 {
-    @throw @"Overriden";
+    @throw @"Overridden";
 }
 
 #pragma mark - UIScrollViewDelegate Methods
@@ -125,15 +125,15 @@
     
 	// TODO call view did appear and disappear methods
     if (page > 0) {
-        AppView *appView = [self.appViews objectAtIndex:page - 1];
+        FSView *appView = [self.appViews objectAtIndex:page - 1];
         [appView viewDidDisappear];
     }
     if (page < [self.appViews count] - 1) {
-        AppView *appView = [self.appViews objectAtIndex:page + 1];
+        FSView *appView = [self.appViews objectAtIndex:page + 1];
         [appView viewDidDisappear];
     }
     
-    AppView *appView = [self.appViews objectAtIndex:page];
+    FSView *appView = [self.appViews objectAtIndex:page];
     [appView viewDidAppear];
     
     self.currentPage = page;

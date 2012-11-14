@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 FishStix. All rights reserved.
 //
 
-#import "AppView.h"
+#import "FSView.h"
 
-@interface FSPaginatedScrollView : AppView {
+@interface FSPaginatedScrollView : FSView {
     UIScrollView *_scrollView;
 
     NSMutableArray *_appViews;
@@ -23,7 +23,7 @@
 - (void) initialize;
 - (void) updateScrollView;
 - (void) loadScrollViewWithPage:(int)page;
-- (AppView*) viewForPage:(int)page;
+- (FSView*) viewForPage:(int)page;
 
 
 @end

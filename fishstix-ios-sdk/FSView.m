@@ -3,12 +3,12 @@
 //  Prayer
 //
 //  Created by Charles Fisher on 3/31/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 FishStix. All rights reserved.
 //
 
-#import "AppView.h"
+#import "FSView.h"
 
-@implementation AppView
+@implementation FSView
 
 - (void) viewDidAppear
 {
