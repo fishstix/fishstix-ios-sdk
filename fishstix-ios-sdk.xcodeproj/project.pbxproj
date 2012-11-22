@@ -49,6 +49,10 @@
 		727B524C159E16C800E86A0A /* FSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B5248159E16C800E86A0A /* FSView.m */; };
 		72B02237165242B100CF7D82 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B213D9159A27BD00456CE8 /* FSAppDelegate.m */; };
 		72B02238165243AC00CF7D82 /* FSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B213D8159A27BD00456CE8 /* FSAppDelegate.h */; };
+		72BDCC24165C6E0300402047 /* FSTextPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BDCC22165C6E0300402047 /* FSTextPickerView.h */; };
+		72BDCC25165C6E0300402047 /* FSTextPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BDCC23165C6E0300402047 /* FSTextPickerView.m */; };
+		72C1669A165D9C1100A4AFF3 /* UIView+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C16698165D9C1100A4AFF3 /* UIView+FSExtensions.h */; };
+		72C1669B165D9C1100A4AFF3 /* UIView+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C16699165D9C1100A4AFF3 /* UIView+FSExtensions.m */; };
 		72C73BE515AD4ECE00FCA626 /* FSTableHeaderSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B214AB159AEE2900456CE8 /* FSTableHeaderSuperView.m */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +127,10 @@
 		72B214A8159AEE1200456CE8 /* FSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSTableView.h; path = "fishstix-ios-sdk/FSTableView.h"; sourceTree = SOURCE_ROOT; };
 		72B214AA159AEE2900456CE8 /* FSTableHeaderSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSTableHeaderSuperView.h; path = "fishstix-ios-sdk/FSTableHeaderSuperView.h"; sourceTree = SOURCE_ROOT; };
 		72B214AB159AEE2900456CE8 /* FSTableHeaderSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSTableHeaderSuperView.m; path = "fishstix-ios-sdk/FSTableHeaderSuperView.m"; sourceTree = SOURCE_ROOT; };
+		72BDCC22165C6E0300402047 /* FSTextPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSTextPickerView.h; path = "fishstix-ios-sdk/FSTextPickerView.h"; sourceTree = SOURCE_ROOT; };
+		72BDCC23165C6E0300402047 /* FSTextPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSTextPickerView.m; path = "fishstix-ios-sdk/FSTextPickerView.m"; sourceTree = SOURCE_ROOT; };
+		72C16698165D9C1100A4AFF3 /* UIView+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FSExtensions.h"; sourceTree = "<group>"; };
+		72C16699165D9C1100A4AFF3 /* UIView+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +221,8 @@
 				726141DD15F4783D00C586C9 /* UIWindow+FSExtensions.m */,
 				726141DE15F4783D00C586C9 /* NSDate+FSExtensions.h */,
 				726141DF15F4783D00C586C9 /* NSDate+FSExtensions.m */,
+				72C16698165D9C1100A4AFF3 /* UIView+FSExtensions.h */,
+				72C16699165D9C1100A4AFF3 /* UIView+FSExtensions.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -304,6 +314,7 @@
 		72B2148F159AED8500456CE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				72BDCC20165C6DE500402047 /* Picker */,
 				727B5247159E16C800E86A0A /* FSView.h */,
 				727B5248159E16C800E86A0A /* FSView.m */,
 				725A4FA6165395DD0011AE53 /* FSViewController.h */,
@@ -353,6 +364,15 @@
 			name = SubViews;
 			sourceTree = "<group>";
 		};
+		72BDCC20165C6DE500402047 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				72BDCC22165C6E0300402047 /* FSTextPickerView.h */,
+				72BDCC23165C6E0300402047 /* FSTextPickerView.m */,
+			);
+			name = Picker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -377,6 +397,8 @@
 				726141FC15F482E500C586C9 /* Reachability.h in Headers */,
 				725A4FA7165395DD0011AE53 /* FSViewController.h in Headers */,
 				725A4FAD165396600011AE53 /* FSUtil.h in Headers */,
+				72BDCC24165C6E0300402047 /* FSTextPickerView.h in Headers */,
+				72C1669A165D9C1100A4AFF3 /* UIView+FSExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +517,8 @@
 				72B02237165242B100CF7D82 /* FSAppDelegate.m in Sources */,
 				725A4FA9165395EB0011AE53 /* FSViewController.m in Sources */,
 				725A4FAE165396600011AE53 /* FSUtil.m in Sources */,
+				72BDCC25165C6E0300402047 /* FSTextPickerView.m in Sources */,
+				72C1669B165D9C1100A4AFF3 /* UIView+FSExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

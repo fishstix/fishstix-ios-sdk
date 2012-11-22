@@ -10,6 +10,22 @@
 
 @implementation FSView
 
+- (id) initWithFrame:(CGRect)frame
+{
+    NSString *filename = NSStringFromClass([self class]);
+    
+    if ([[NSBundle mainBundle] pathForResource:filename ofType:@"nib"] != nil)  {
+        self = [UIView initWithNibName:filename withSelf:self];
+    } else {
+        self = [super initWithFrame:frame];
+    }
+
+    if (self) {
+        // Initialization code.
+    }
+    return self;
+}
+
 - (void) viewDidAppear
 {
     
