@@ -8,11 +8,28 @@
 
 #import "FSTextPickerView.h"
 
-@interface FSTextPickerView() <UIPickerViewDataSource>
+@interface FSTextPickerView() <UIPickerViewDataSource, UIPickerViewDelegate>
+@property (nonatomic, assign) id<UIPickerViewDelegate> privateDelegate;
 - (void) initialize;
 @end
 
 @implementation FSTextPickerView
+
+#pragma mark -
+#pragma mark DELEGATION
+
+- (void) setDelegate:(id<UIPickerViewDelegate>)delegate
+{
+    self.privateDelegate = delegate;
+}
+
+- (id<UIPickerViewDelegate>) delegate
+{
+    return self.privateDelegate;
+}
+
+#pragma mark -
+#pragma mark INIT
 
 - (id) init
 {
@@ -35,7 +52,12 @@
 
 - (void) initialize
 {
+    self.values = [NSArray array];
+    
     self.dataSource = self;
+    [super setDelegate:self];
+    
+    [self addObserver:self forKeyPath:@"values" options:NSKeyValueChangeReplacement context:NULL];
 }
 
 - (void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
@@ -57,13 +79,19 @@
     return 1;
 }
 
-- (UIView*) viewForRow:(NSInteger)row forComponent:(NSInteger)component
+#pragma mark -
+#pragma mark UIPickerViewDelegate
+
+- (NSString*) pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
-    UILabel *lbl = [[UILabel alloc] init];
-    [lbl setText:[self.values objectAtIndex:row]];
-    [lbl sizeToFit];
-    
-    return lbl;
+    return [self.values objectAtIndex:row];
+}
+
+- (void) pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    if ([self.privateDelegate respondsToSelector:@selector(pickerView:didSelectRow:inComponent:)]) {
+        [self.privateDelegate pickerView:pickerView didSelectRow:row inComponent:component];
+    }
 }
 
 @end
