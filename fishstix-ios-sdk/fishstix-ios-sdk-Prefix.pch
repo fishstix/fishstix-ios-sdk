@@ -8,6 +8,7 @@
     #import "UIView+FSExtensions.h"
     #import "UIWindow+FSExtensions.h"
     #import "NSObject+FSExtensions.h"
+    #import "UIAlertView+BlockExtensions.h"
 #endif
 
 // DLog is almost a drop-in replacement for NSLog

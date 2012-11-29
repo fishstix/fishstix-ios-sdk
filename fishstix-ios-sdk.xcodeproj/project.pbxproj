@@ -333,6 +333,7 @@
 		72B2148F159AED8500456CE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				72F75A1C16674A7800BC5DDF /* AlertView */,
 				72AE243C1664A71900E228F5 /* HUD */,
 				72BDCC20165C6DE500402047 /* Picker */,
 				727B5247159E16C800E86A0A /* FSView.h */,
@@ -391,6 +392,13 @@
 				72BDCC23165C6E0300402047 /* FSTextPickerView.m */,
 			);
 			name = Picker;
+			sourceTree = "<group>";
+		};
+		72F75A1C16674A7800BC5DDF /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
