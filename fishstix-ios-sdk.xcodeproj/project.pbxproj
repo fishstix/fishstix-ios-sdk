@@ -58,6 +58,8 @@
 		72C1669A165D9C1100A4AFF3 /* UIView+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C16698165D9C1100A4AFF3 /* UIView+FSExtensions.h */; };
 		72C1669B165D9C1100A4AFF3 /* UIView+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C16699165D9C1100A4AFF3 /* UIView+FSExtensions.m */; };
 		72C73BE515AD4ECE00FCA626 /* FSTableHeaderSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B214AB159AEE2900456CE8 /* FSTableHeaderSuperView.m */; };
+		72E4369E1673EBF600FDBC84 /* FSHorizontalPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E4369C1673EBF600FDBC84 /* FSHorizontalPickerView.h */; };
+		72E4369F1673EBF600FDBC84 /* FSHorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E4369D1673EBF600FDBC84 /* FSHorizontalPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +141,8 @@
 		72BDCC23165C6E0300402047 /* FSTextPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSTextPickerView.m; path = "fishstix-ios-sdk/FSTextPickerView.m"; sourceTree = SOURCE_ROOT; };
 		72C16698165D9C1100A4AFF3 /* UIView+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FSExtensions.h"; sourceTree = "<group>"; };
 		72C16699165D9C1100A4AFF3 /* UIView+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSExtensions.m"; sourceTree = "<group>"; };
+		72E4369C1673EBF600FDBC84 /* FSHorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSHorizontalPickerView.h; path = "fishstix-ios-sdk/FSHorizontalPickerView.h"; sourceTree = SOURCE_ROOT; };
+		72E4369D1673EBF600FDBC84 /* FSHorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSHorizontalPickerView.m; path = "fishstix-ios-sdk/FSHorizontalPickerView.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,9 +337,10 @@
 		72B2148F159AED8500456CE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				72E4369B1673EBE300FDBC84 /* Picker */,
 				72F75A1C16674A7800BC5DDF /* AlertView */,
 				72AE243C1664A71900E228F5 /* HUD */,
-				72BDCC20165C6DE500402047 /* Picker */,
+				72BDCC20165C6DE500402047 /* Text */,
 				727B5247159E16C800E86A0A /* FSView.h */,
 				727B5248159E16C800E86A0A /* FSView.m */,
 				725A4FA6165395DD0011AE53 /* FSViewController.h */,
@@ -385,11 +390,20 @@
 			name = SubViews;
 			sourceTree = "<group>";
 		};
-		72BDCC20165C6DE500402047 /* Picker */ = {
+		72BDCC20165C6DE500402047 /* Text */ = {
 			isa = PBXGroup;
 			children = (
 				72BDCC22165C6E0300402047 /* FSTextPickerView.h */,
 				72BDCC23165C6E0300402047 /* FSTextPickerView.m */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		72E4369B1673EBE300FDBC84 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				72E4369C1673EBF600FDBC84 /* FSHorizontalPickerView.h */,
+				72E4369D1673EBF600FDBC84 /* FSHorizontalPickerView.m */,
 			);
 			name = Picker;
 			sourceTree = "<group>";
@@ -429,6 +443,7 @@
 				72C1669A165D9C1100A4AFF3 /* UIView+FSExtensions.h in Headers */,
 				72AE24411664A82C00E228F5 /* MBProgressHUD.h in Headers */,
 				72AE24441664A84E00E228F5 /* FSProgressHUD.h in Headers */,
+				72E4369E1673EBF600FDBC84 /* FSHorizontalPickerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +566,7 @@
 				72C1669B165D9C1100A4AFF3 /* UIView+FSExtensions.m in Sources */,
 				72AE24401664A82C00E228F5 /* MBProgressHUD.m in Sources */,
 				72AE24451664A84E00E228F5 /* FSProgressHUD.m in Sources */,
+				72E4369F1673EBF600FDBC84 /* FSHorizontalPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

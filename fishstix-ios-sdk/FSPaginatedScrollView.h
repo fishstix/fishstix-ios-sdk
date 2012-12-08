@@ -16,8 +16,8 @@
     int _currentPage;
 }
 
-@property (nonatomic, retain) UIScrollView *scrollView;
-@property (nonatomic, retain) NSMutableArray *appViews;
+@property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) NSMutableArray *appViews;
 @property (nonatomic, assign) int currentPage;
 
 - (void) initialize;
