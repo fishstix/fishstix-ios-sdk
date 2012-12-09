@@ -1,5 +1,5 @@
 //
-//  MHHorizontalPickerView.h
+//  FSHorizontalPickerView.h
 //  MedTracker
 //
 //  Created by Charles Fisher on 11/27/12.
@@ -8,18 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@class MHHorizontalPickerView;
+@class FSHorizontalPickerView;
 
-@protocol MHHorizontalPickerViewDelegate <NSObject>
-- (UIView *)pickerView:(MHHorizontalPickerView *)pickerView viewForColumn:(NSInteger)column reusingView:(UIView*)view;
-- (CGFloat)pickerViewWidthOfColumn:(MHHorizontalPickerView *)pickerView;
-- (NSInteger)pickerViewNumberOfColumns:(MHHorizontalPickerView *)pickerView;
-- (void) pickerView:(MHHorizontalPickerView *)pickerView didSelectColumn:(NSInteger)column;
+@protocol FSHorizontalPickerViewDelegate <NSObject>
+- (UIView *)pickerView:(FSHorizontalPickerView *)pickerView viewForColumn:(NSInteger)column reusingView:(UIView*)view;
+- (CGFloat)pickerViewWidthOfColumn:(FSHorizontalPickerView *)pickerView;
+- (NSInteger)pickerViewNumberOfColumns:(FSHorizontalPickerView *)pickerView;
+- (void) pickerView:(FSHorizontalPickerView *)pickerView didSelectColumn:(NSInteger)column;
 @end
 
-@interface MHHorizontalPickerView : UIPickerView
+@interface FSHorizontalPickerView : UIPickerView
 
-@property (nonatomic, assign) id<MHHorizontalPickerViewDelegate> delegate;
+@property (nonatomic, assign) id<FSHorizontalPickerViewDelegate> delegate;
 
 - (void) selectColumn:(int)selectedColumn animated:(BOOL)animated;
 - (int) selectedColumn;

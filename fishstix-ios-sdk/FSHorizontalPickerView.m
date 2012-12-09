@@ -1,43 +1,43 @@
 //
-//  MHHorizontalPickerView.m
+//  FSHorizontalPickerView.m
 //  MedTracker
 //
 //  Created by Charles Fisher on 11/27/12.
 //
 //
 
-#import "MHHorizontalPickerView.h"
+#import "FSHorizontalPickerView.h"
 
 #import <objc/runtime.h>
 #import <objc/message.h>
 
 // Creating UIView setFrame method that can be swizzled
-@interface MHHelperPickerView : UIView
+@interface FSHelperPickerView : UIView
 @end
-@implementation MHHelperPickerView
+@implementation FSHelperPickerView
 - (void) setFrame:(CGRect)frame
 {
     [super setFrame:frame];
 }
 @end
 
-@interface MHNoMoveView : UIView
+@interface FSNoMoveView : UIView
 @end
-@implementation MHNoMoveView
+@implementation FSNoMoveView
 - (void) setFrame:(CGRect)frame
 {
     // Nope
 }
 @end
 
-@interface MHHorizontalPickerView () <UIPickerViewDelegate>
+@interface FSHorizontalPickerView () <UIPickerViewDelegate>
 @property (nonatomic, assign) CGFloat oldHeight;
 @property (nonatomic, assign) BOOL layingSubviews;
-@property (nonatomic, assign) id<MHHorizontalPickerViewDelegate> horizontalDelegate;
-- (void) mhhorizontalpickerviewinitialize;
+@property (nonatomic, assign) id<FSHorizontalPickerViewDelegate> horizontalDelegate;
+- (void) fshorizontalpickerviewinitialize;
 @end
 
-@implementation MHHorizontalPickerView
+@implementation FSHorizontalPickerView
 @synthesize horizontalDelegate = _horizontalDelegate;
 @dynamic delegate;
 
@@ -48,20 +48,20 @@ static Method origSetFrameMethod = nil;
 
 __attribute__((constructor))
 static void do_the_swizzles() {
-    origSetFrameMethod = class_getInstanceMethod([MHHorizontalPickerView class], @selector(setFrame:));
+    origSetFrameMethod = class_getInstanceMethod([FSHorizontalPickerView class], @selector(setFrame:));
     method_exchangeImplementations(origSetFrameMethod,
-                                   class_getInstanceMethod([MHHelperPickerView class], @selector(setFrame:)));
+                                   class_getInstanceMethod([FSHelperPickerView class], @selector(setFrame:)));
 }
 
 #pragma mark -
 #pragma mark PROPERTIES
 
-- (void) setDelegate:(id<MHHorizontalPickerViewDelegate>)delegate
+- (void) setDelegate:(id<FSHorizontalPickerViewDelegate>)delegate
 {
     self.horizontalDelegate = delegate;    
 }
 
-- (id<MHHorizontalPickerViewDelegate>) delegate
+- (id<FSHorizontalPickerViewDelegate>) delegate
 {
     return self.horizontalDelegate;
 }
@@ -111,7 +111,7 @@ static void do_the_swizzles() {
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super initWithCoder:aDecoder]) {
-        [self mhhorizontalpickerviewinitialize];
+        [self fshorizontalpickerviewinitialize];
     }
     
     return self;
@@ -120,12 +120,12 @@ static void do_the_swizzles() {
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         [self setFrame:frame];
-        [self mhhorizontalpickerviewinitialize];
+        [self fshorizontalpickerviewinitialize];
     }
     return self;
 }
 
--(void) mhhorizontalpickerviewinitialize
+-(void) fshorizontalpickerviewinitialize
 {
     self.showsSelectionIndicator = NO;
     self.backgroundColor = [UIColor clearColor];
