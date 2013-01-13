@@ -5,6 +5,7 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 
+    #import "FSExtensions.h"
     #import "UIView+FSExtensions.h"
     #import "UIWindow+FSExtensions.h"
     #import "NSObject+FSExtensions.h"

@@ -47,6 +47,12 @@
 		7261420015F4837200C586C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726141FF15F4837100C586C9 /* SystemConfiguration.framework */; };
 		727B524B159E16C800E86A0A /* FSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 727B5247159E16C800E86A0A /* FSView.h */; };
 		727B524C159E16C800E86A0A /* FSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B5248159E16C800E86A0A /* FSView.m */; };
+		72A887A9167B01BE00DA6D25 /* FSCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A887A7167B01BE00DA6D25 /* FSCamera.h */; };
+		72A887AA167B01BE00DA6D25 /* FSCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A887A8167B01BE00DA6D25 /* FSCamera.m */; };
+		72A887AD167B05B200DA6D25 /* UIAlertTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A887AB167B05B200DA6D25 /* UIAlertTextView.h */; };
+		72A887AE167B05B200DA6D25 /* UIAlertTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A887AC167B05B200DA6D25 /* UIAlertTextView.m */; };
+		72A887B5167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A887B3167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.h */; };
+		72A887B6167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A887B4167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.m */; };
 		72AE24401664A82C00E228F5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE243E1664A82C00E228F5 /* MBProgressHUD.m */; };
 		72AE24411664A82C00E228F5 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE243F1664A82C00E228F5 /* MBProgressHUD.h */; };
 		72AE24441664A84E00E228F5 /* FSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE24421664A84E00E228F5 /* FSProgressHUD.h */; };
@@ -112,6 +118,13 @@
 		726141FF15F4837100C586C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		727B5247159E16C800E86A0A /* FSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSView.h; path = "fishstix-ios-sdk/FSView.h"; sourceTree = SOURCE_ROOT; };
 		727B5248159E16C800E86A0A /* FSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSView.m; path = "fishstix-ios-sdk/FSView.m"; sourceTree = SOURCE_ROOT; };
+		72A887A0167AF22100DA6D25 /* FSExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSExtensions.h; sourceTree = "<group>"; };
+		72A887A7167B01BE00DA6D25 /* FSCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCamera.h; sourceTree = "<group>"; };
+		72A887A8167B01BE00DA6D25 /* FSCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCamera.m; sourceTree = "<group>"; };
+		72A887AB167B05B200DA6D25 /* UIAlertTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIAlertTextView.h; path = "fishstix-ios-sdk/UIAlertTextView.h"; sourceTree = SOURCE_ROOT; };
+		72A887AC167B05B200DA6D25 /* UIAlertTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIAlertTextView.m; path = "fishstix-ios-sdk/UIAlertTextView.m"; sourceTree = SOURCE_ROOT; };
+		72A887B3167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+FSExtensions.h"; sourceTree = "<group>"; };
+		72A887B4167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+FSExtensions.m"; sourceTree = "<group>"; };
 		72AE243E1664A82C00E228F5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "fishstix-ios-sdk/MBProgressHUD.m"; sourceTree = SOURCE_ROOT; };
 		72AE243F1664A82C00E228F5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "fishstix-ios-sdk/MBProgressHUD.h"; sourceTree = SOURCE_ROOT; };
 		72AE24421664A84E00E228F5 /* FSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSProgressHUD.h; path = "fishstix-ios-sdk/FSProgressHUD.h"; sourceTree = SOURCE_ROOT; };
@@ -219,6 +232,7 @@
 		726141D015F477D100C586C9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				72A887A0167AF22100DA6D25 /* FSExtensions.h */,
 				726141E015F4783D00C586C9 /* NSObject+FSExtensions.h */,
 				726141D115F4783D00C586C9 /* NSObject+FSExtensions.m */,
 				726141D215F4783D00C586C9 /* NSString+FSExtensions.h */,
@@ -235,6 +249,8 @@
 				726141DF15F4783D00C586C9 /* NSDate+FSExtensions.m */,
 				72C16698165D9C1100A4AFF3 /* UIView+FSExtensions.h */,
 				72C16699165D9C1100A4AFF3 /* UIView+FSExtensions.m */,
+				72A887B3167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.h */,
+				72A887B4167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -250,6 +266,15 @@
 				726141F715F482E500C586C9 /* Reachability.m */,
 			);
 			name = Network;
+			sourceTree = "<group>";
+		};
+		72A887A6167B019200DA6D25 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				72A887A7167B01BE00DA6D25 /* FSCamera.h */,
+				72A887A8167B01BE00DA6D25 /* FSCamera.m */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 		72AE243C1664A71900E228F5 /* HUD */ = {
@@ -298,9 +323,10 @@
 		72B213CF159A27BD00456CE8 /* fishstix-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				726141D015F477D100C586C9 /* Extensions */,
 				725A4FAA1653964E0011AE53 /* Util */,
 				726141F115F482D500C586C9 /* Network */,
-				726141D015F477D100C586C9 /* Extensions */,
+				72A887A6167B019200DA6D25 /* Camera */,
 				72B213D8159A27BD00456CE8 /* FSAppDelegate.h */,
 				72B213D9159A27BD00456CE8 /* FSAppDelegate.m */,
 				72B2148E159AED8500456CE8 /* Social */,
@@ -411,6 +437,8 @@
 		72F75A1C16674A7800BC5DDF /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
+				72A887AB167B05B200DA6D25 /* UIAlertTextView.h */,
+				72A887AC167B05B200DA6D25 /* UIAlertTextView.m */,
 			);
 			name = AlertView;
 			sourceTree = "<group>";
@@ -444,6 +472,9 @@
 				72AE24411664A82C00E228F5 /* MBProgressHUD.h in Headers */,
 				72AE24441664A84E00E228F5 /* FSProgressHUD.h in Headers */,
 				72E4369E1673EBF600FDBC84 /* FSHorizontalPickerView.h in Headers */,
+				72A887A9167B01BE00DA6D25 /* FSCamera.h in Headers */,
+				72A887AD167B05B200DA6D25 /* UIAlertTextView.h in Headers */,
+				72A887B5167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +598,9 @@
 				72AE24401664A82C00E228F5 /* MBProgressHUD.m in Sources */,
 				72AE24451664A84E00E228F5 /* FSProgressHUD.m in Sources */,
 				72E4369F1673EBF600FDBC84 /* FSHorizontalPickerView.m in Sources */,
+				72A887AA167B01BE00DA6D25 /* FSCamera.m in Sources */,
+				72A887AE167B05B200DA6D25 /* UIAlertTextView.m in Sources */,
+				72A887B6167B0E5800DA6D25 /* UIImagePickerController+FSExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

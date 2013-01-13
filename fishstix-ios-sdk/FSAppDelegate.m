@@ -20,12 +20,17 @@
         self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
         // Override point for customization after application launch.
         self.window.backgroundColor = [UIColor whiteColor];
+<<<<<<< HEAD
         [self.window makeKeyAndVisible];        
     }
     
     // Fade in from Default.png
     [self downloadUserObject];
     
+=======
+        [self.window makeKeyAndVisible];
+    }
+>>>>>>> 1c0166f2b357b55eeee44bb649fc78baeb11e60c
     return YES;
 }
 
