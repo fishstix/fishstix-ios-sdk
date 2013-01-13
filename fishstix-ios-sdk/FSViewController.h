@@ -10,4 +10,6 @@
 
 @interface FSViewController : UIViewController
 
+- (void) keyboardDidShow:(id)notification;
+
 @end
